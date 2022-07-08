@@ -1,0 +1,28 @@
+.between {
+    background: linear-gradient(95deg, rgb(65, 1, 1), rgb(26, 25, 25));
+}
+
+ul li {
+    font-size: 20px;
+    color: rgb(22, 22, 22);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul li i {
+    color: #00bb8c;
+}
+
+ul li a {
+    color: black;
+}
+
+ul li a:hover {
+    text-decoration: none;
+    color: gray;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    line-height: 50px;
+}

@@ -1,0 +1,344 @@
+body {
+    overflow-x: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background-color: transparent !important;
+    padding-top: 60px;
+}
+
+.menum {
+    position: fixed;
+    z-index: 99999999999;
+}
+
+.bolum1 .navbar li a {
+    color: rgb(255, 255, 255) !important;
+    font-weight: 500;
+    font-family: 'Righteous', cursive;
+}
+
+.bolum1 .navbar .navbar-nav .active>a,
+.bolum1 .navbar .navbar-nav a:hover {
+    color: #00bb8c !important;
+    font-weight: 500;
+}
+
+.lok .navbar li a {
+    color: rgb(255, 255, 255) !important;
+    font-weight: 500;
+    font-family: 'Righteous', cursive;
+}
+
+.lok .navbar .navbar-nav .active>a,
+.lok .navbar .navbar-nav a:hover {
+    color: #00bb8c !important;
+    font-weight: 500;
+}
+
+.one:hover {
+    background-color: white !important;
+    color: #00bb8c !important;
+    border: 3px solid #00bb8c !important;
+}
+
+.yukarıcık {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    opacity: 0.4;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+@keyframes bolum {
+    from {
+        margin-left: 500%;
+    }
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+@keyframes bolume {
+    from {
+        margin-left: -100%;
+    }
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+@keyframes bolumem {
+    from {
+        margin-left: -100%;
+    }
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+@keyframes bolumemz {
+    from {
+        margin-top: 100%;
+    }
+    to {
+        margin-top: 0%;
+    }
+}
+
+.one {
+    font-weight: 500;
+    font-family: 'Righteous', cursive;
+}
+
+.two {
+    font-weight: 300;
+    font-family: 'Righteous', cursive;
+    border: none;
+    background-color: transparent;
+    color: rgb(94, 0, 0);
+    border: 2px solid rgb(94, 0, 0);
+}
+
+.two:hover {
+    background-color: transparent;
+    color: #00bb8c !important;
+    transform: scale(1.2);
+    border: none;
+}
+
+.bolum1 {
+    height: 100vh;
+    background-image: url("resim/h.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: 50% 30%;
+    animation-name: bolum;
+    animation-duration: 2.7s;
+    animation-timing-function: ease-in-out;
+}
+
+.efekt {
+    animation-name: bolume;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-timing-function: ease-in-out;
+}
+
+.resimbolum {
+    width: 100%;
+    height: 100vh;
+    background-image: url("resim/section-1.jpg");
+    background-size: cover;
+    background-position: 50% 0;
+}
+
+.secenek .card {
+    background-color: rgb(20, 20, 20);
+    border: none;
+    border-radius: 0%;
+    padding-bottom: 50px;
+}
+
+.alt {
+    padding-top: 100px;
+}
+
+.secenek .card-img {
+    padding-top: 100px;
+    padding-bottom: 60px;
+    animation-name: bolum;
+    animation-delay: 3s;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+}
+
+.secenek .btn:hover {
+    background-color: white !important;
+    color: black !important;
+}
+
+.bolumdort {
+    padding-top: 100px;
+    height: auto;
+    padding-bottom: 100px;
+    background-color: #101010;
+}
+
+.bolumdort ul li {
+    list-style: none;
+    padding-bottom: 30px;
+    color: white;
+}
+
+.birincil {
+    animation-name: bolumem;
+    animation-delay: 15s;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+}
+
+.ikincil {
+    animation-name: bolum;
+    animation-delay: 10s;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+}
+
+.iki {
+    animation-name: bolumemz;
+    animation-delay: 10s;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+}
+
+ ::-webkit-scrollbar {
+    padding: 0%;
+    width: 15px;
+    min-height: 150px;
+    background-color: transparent;
+}
+
+ ::-webkit-scrollbar-thumb {
+    min-height: 20px;
+    border-radius: 100%;
+    width: 15px;
+    background-color: #038f6c;
+    border-radius: 10px;
+}
+
+ ::-webkit-scrollbar-button {
+    height: 300px;
+    background-color: rgb(95, 2, 2);
+}
+
+ ::-webkit-scrollbar-track {
+    background-color: rgb(95, 2, 2);
+}
+
+ ::-webkit-scrollbar-thumb:hover {
+    background-color: #038f6c;
+}
+
+.bolumbes {
+    background-image: url("resim/section-2.jpg");
+    background-size: cover;
+}
+
+.bolumaltı {
+    background: linear-gradient(to bottom, #0f0f0f, transparent), url('resim/section-5.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: 50% 0;
+}
+
+.iletisim:hover {
+    background-color: transparent !important;
+    color: #03b98c;
+    opacity: 0.5;
+    transition: 3s;
+    transition-timing-function: ease-out;
+}
+
+.bolumyedi {
+    background-image: url('resim/section-5.jpg');
+    background-size: cover;
+    background-position: 50% 0;
+    padding-bottom: 100px;
+}
+
+.bolumyedi ul {
+    list-style: none;
+}
+
+.bolumyedi ul li {
+    color: white;
+    font-family: 'Righteous', cursive;
+    float: left;
+}
+
+.bolumyedi ul h3 {
+    font-family: 'Homemade Apple', cursive;
+    float: left;
+    color: #00bb8c;
+}
+
+.bolumsekiz {
+    background-attachment: fixed;
+    position: relative;
+    height: auto;
+    background-size: cover;
+    background-image: url('resim/footer.jpg');
+}
+
+.yazi {
+    padding-top: 100px;
+}
+
+.yaziiki {
+    margin-top: 40px;
+    border-top: 0.2px solid rgb(0, 0, 0);
+}
+
+.yaziiki ul {
+    padding-top: 100px;
+    list-style: none;
+    padding-bottom: 50px;
+}
+
+.yaziiki ul li a:hover {
+    text-decoration: none;
+    color: #00bb8c;
+}
+
+.yaziiki ul li,
+h5 {
+    font-family: 'Righteous', cursive;
+}
+
+.yaziiki ul h5 {
+    color: white;
+}
+
+.yaziiki ul li a {
+    color: grey;
+}
+
+.cizz {
+    margin-top: 40px;
+    border-top: 0.2px solid rgb(0, 0, 0);
+}
+
+.sosyal {
+    float: right;
+}
+
+.sosyal ul {
+    list-style: none;
+}
+
+.sosyal ul li {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.sosyal ul li i:hover {
+    color: rgb(255, 255, 255) !important;
+}
+
+.footer {
+    height: 15vh;
+    background-color: transparent;
+}
